@@ -1,0 +1,35 @@
+#include "resource.h"
+#include <windows.h>
+
+// İkon tanımı
+IDI_MYICON ICON "icon.ico"
+
+// Versiyon bilgisi
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       0x0L
+FILEOS          VOS__WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "CompanyName", "Finnxes"
+            VALUE "FileDescription", "GoodbyeDPI GUI"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "goodbyedpi_gui"
+            VALUE "LegalCopyright", "Copyright (C) 2024"
+            VALUE "OriginalFilename", "goodbyedpi_gui.exe"
+            VALUE "ProductName", "GoodbyeDPI GUI"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END 
