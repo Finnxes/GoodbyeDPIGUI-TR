@@ -4,3 +4,8 @@ Kaspersky antivirüs yazılımı, Rus hükümetiyle olan bağlantıları nedeniy
 
 
 ![Arayüz](https://i.postimg.cc/Vs4CnntX/Ekran-g-r-nt-s-2025-02-15-044533.png)
+
+
+
+
+![Arayüz2](https://i.postimg.cc/sgWx6hM6/image.png)
